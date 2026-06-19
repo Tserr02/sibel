@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sibel/static/css/main.14640502.css",
-    "main.js": "/sibel/static/js/main.3ab95ba4.js",
+    "main.js": "/sibel/static/js/main.8adf7769.js",
     "static/js/453.c17acd5f.chunk.js": "/sibel/static/js/453.c17acd5f.chunk.js",
     "index.html": "/sibel/index.html",
     "main.14640502.css.map": "/sibel/static/css/main.14640502.css.map",
-    "main.3ab95ba4.js.map": "/sibel/static/js/main.3ab95ba4.js.map",
+    "main.8adf7769.js.map": "/sibel/static/js/main.8adf7769.js.map",
     "453.c17acd5f.chunk.js.map": "/sibel/static/js/453.c17acd5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14640502.css",
-    "static/js/main.3ab95ba4.js"
+    "static/js/main.8adf7769.js"
   ]
 }
