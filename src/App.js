@@ -16,6 +16,7 @@ import About from "./pages/About";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import UserAgreement from "./pages/UserAgreement";
 import Search from "./pages/Search";
+import "./responsive.css";
 
 function App() {
   const action = useNavigationType();
