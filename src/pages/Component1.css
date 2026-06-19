@@ -1,0 +1,48 @@
+.div,
+.frame-group,
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  align-items: center;
+  isolation: isolate;
+  gap: 134px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.frame-group,
+.frame-parent {
+  gap: 96px;
+  max-width: 100%;
+}
+.frame-parent {
+  align-self: stretch;
+  align-items: center;
+  z-index: 1;
+}
+.frame-group {
+  width: var(--width-1240);
+  align-items: flex-end;
+}
+@media screen and (max-width: 800px) {
+  .div {
+    gap: 67px;
+  }
+  .frame-group,
+  .frame-parent {
+    gap: var(--gap-48);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    gap: 33px;
+  }
+  .frame-group,
+  .frame-parent {
+    gap: var(--gap-24);
+  }
+}

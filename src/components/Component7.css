@@ -1,0 +1,69 @@
+.frame-parent12,
+.parent12 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent12 {
+  flex-direction: column;
+  gap: var(--gap-32);
+  text-align: left;
+  font-size: var(--fs-48);
+  color: var(--color-gray-400);
+  font-family: var(--font-vela-sans);
+}
+.parent12 {
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.h25 {
+  margin: 0;
+  width: 663px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frame-parent13 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent13 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-20);
+}
+@media screen and (max-width: 1125px) {
+  .parent12 {
+    flex-wrap: wrap;
+  }
+  .frame-parent13 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(300px, 520px));
+  }
+}
+@media screen and (max-width: 800px) {
+  .frame-parent12 {
+    gap: var(--gap-16);
+  }
+  .h25 {
+    font-size: var(--fs-38);
+    line-height: var(--lh-38);
+  }
+  .frame-parent13 {
+    grid-template-columns: minmax(300px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h25 {
+    font-size: var(--fs-29);
+    line-height: var(--lh-29);
+  }
+}

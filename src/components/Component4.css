@@ -1,0 +1,136 @@
+.h23,
+.parent8 {
+  align-self: stretch;
+  position: relative;
+}
+.parent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  isolation: isolate;
+  gap: var(--gap-32);
+  text-align: left;
+  font-size: var(--fs-48);
+  color: var(--color-gray-300);
+  font-family: var(--font-vela-sans);
+}
+.h23 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.frame-parent8,
+.image-8-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frame-parent8 {
+  height: 152px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 1;
+  max-width: 100%;
+}
+.partners-track {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-20);
+  flex-shrink: 0;
+  min-width: max-content;
+  animation: partners-scroll 26s linear infinite;
+}
+.frame-parent8:hover .partners-track {
+  animation-play-state: paused;
+}
+.image-8-wrapper {
+  width: var(--width-295);
+  border-radius: var(--br-24);
+  border: var(--border-1);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-35);
+}
+
+
+.image-14-icon,
+.image-8-icon {
+  width: 123px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-14-icon {
+  width: 137px;
+}
+.rzd-logo-1-icon {
+  width: 129px;
+  height: var(--height-56);
+  position: relative;
+}
+.image-15-wrapper {
+  align-self: stretch;
+  width: var(--width-295);
+  border-radius: var(--br-24);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) 34px;
+  flex-shrink: 0;
+}
+.image-15-icon,
+.suenko-photoroom-1-icon,
+.alrosa-logo-icon,
+.polymetal-logo-icon {
+  width: 225px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+}
+.suenko-photoroom-1-icon {
+  width: 207px;
+}
+.alrosa-logo-icon {
+  width: 210px;
+}
+.polymetal-logo-icon {
+  width: 215px;
+}
+@keyframes partners-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 10px));
+  }
+}
+@media screen and (max-width: 1300px) {
+  .frame-parent8 {
+    height: 152px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .parent8 {
+    gap: var(--gap-16);
+  }
+  .h23 {
+    font-size: var(--fs-38);
+    line-height: var(--lh-38);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h23 {
+    font-size: var(--fs-29);
+    line-height: var(--lh-29);
+  }
+}
