@@ -31,6 +31,7 @@
   "eslintConfig": {
     "root": true
   },
+  "homepage": "https://tserr02.github.io/sibel",
   "name": "_______copy_",
   "private": true,
   "proxy": "http://localhost:4000",
@@ -39,7 +40,12 @@
     "eject": "react-scripts eject",
     "server": "node server/email-service.js",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
